@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white dark:bg-[#050505] transition-colors duration-500;
+  font-family: sans-serif;
+}
+
+/* ICJ Gold Accents */
+.text-icj-gold { color: #D4AF37; }
+.bg-icj-gold { background-color: #D4AF37; }
